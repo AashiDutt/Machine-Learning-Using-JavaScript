@@ -35,7 +35,7 @@ In order to compile the model, we use **model.compile()** function and pass loss
 In this step we pass the no. of **epochs** along with loss function and optimizer. 
 Here we use **await** so that next line of code do not execute before model end up training.
 
-#Step 6: Prediction
+# Step 6: Prediction
 Finally we pass in the data we want to test and call **model.predict()** and call **run()**.
 
 On runninng the code in the browser for **[4.4, 2.9, 1.4, 0.2]** features of **setosa** we get output as **[0.9942396, 0.0001128, 0.0056478]** means approximately equal to **[1, 0, 0]**. Thus we can say that probability of data being from **class Setosa** is maximum.
